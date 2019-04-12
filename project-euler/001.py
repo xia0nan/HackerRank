@@ -1,3 +1,8 @@
+"""
+Project Euler #1: Multiples of 3 and 5
+
+https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem
+"""
 #!/bin/python3
 
 import sys
@@ -13,5 +18,3 @@ t = int(input().strip())
 for a0 in range(t):
     n = int(input().strip())
     print(euler1(n-1))
-
-### https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem
